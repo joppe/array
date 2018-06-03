@@ -1,4 +1,4 @@
-import { random } from '../../../src/array/random';
+import { random } from '../../src/random';
 
 describe('random', (): void => {
     it('return a random element of an array', (): void => {

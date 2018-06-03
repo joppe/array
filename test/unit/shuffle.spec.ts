@@ -1,4 +1,4 @@
-import { shuffle } from '../../../src/array/shuffle';
+import { shuffle } from '../../src/shuffle';
 
 describe('shuffle', (): void => {
     it('return an array of the same length', (): void => {

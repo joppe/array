@@ -1,4 +1,4 @@
-import {random as randomNumber} from '@apestaartje/number';
+import { random as randomNumber } from '@apestaartje/number';
 
 /**
  * Pick a random element from an array

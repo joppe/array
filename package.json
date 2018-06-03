@@ -42,5 +42,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@apestaartje/number": "^1.2.0"
+  }
 }

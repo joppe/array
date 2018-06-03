@@ -1,7 +1,7 @@
 {
-  "name": "array",
+  "name": "@apestaartje/array",
   "version": "0.0.0",
-  "description": "A library",
+  "description": "A library with array utility functions",
   "scripts": {
     "build": "npm run clean && node ./node_modules/.bin/tsc",
     "clean": "rm -rf dist",

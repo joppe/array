@@ -1,4 +1,4 @@
-import { tail } from '../../src/tail';
+import { tail } from '@apestaartje/array/tail';
 
 describe('tail', (): void => {
     it('Remove the first element of an array', (): void => {

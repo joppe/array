@@ -1,4 +1,4 @@
-import { maximum } from '../../../src/number/maximum';
+import { maximum } from '@apestaartje/array/number/maximum';
 
 describe('maximum', (): void => {
     it('Returns the maximum value of a list', (): void => {

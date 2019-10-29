@@ -1,8 +1,8 @@
-import { take } from '../../src/take';
+import { take } from '@apestaartje/array/take';
 
 describe('take', (): void => {
     it('Take the first number of elements of a list', (): void => {
-        const a: Array<number> = [1, 2, 3, 4, 5];
+        const a: number[] = [1, 2, 3, 4, 5];
 
         expect(take(2, a)).toEqual([1, 2]);
         expect(take(20, a)).toEqual([1, 2, 3, 4, 5]);

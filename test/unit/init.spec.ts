@@ -1,4 +1,4 @@
-import { init } from '../../src/init';
+import { init } from '@apestaartje/array/init';
 
 describe('init', (): void => {
     it('Remove the last element of an array', (): void => {

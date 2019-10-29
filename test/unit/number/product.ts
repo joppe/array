@@ -1,4 +1,4 @@
-import { product } from '../../../src/number/product';
+import { product } from '@apestaartje/array/number/product';
 
 describe('product', (): void => {
     it('Returns the product of a list', (): void => {

@@ -1,4 +1,4 @@
-import { minimum } from '../../../src/number/minimum';
+import { minimum } from '@apestaartje/array/number/minimum';
 
 describe('minimum', (): void => {
     it('Returns the minimum value of a list', (): void => {

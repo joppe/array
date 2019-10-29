@@ -1,4 +1,4 @@
-import { head } from '../../src/head';
+import { head } from '@apestaartje/array/head';
 
 describe('head', (): void => {
     it('Return the first element of an array', (): void => {

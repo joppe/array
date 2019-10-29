@@ -1,4 +1,4 @@
-import { range } from '../../../src/iterator/range';
+import { range } from '@apestaartje/array/iterator/range';
 
 describe('range', (): void => {
     it('return an iterator that spans a given range', (): void => {

@@ -1,4 +1,4 @@
-import { sum } from '../../../src/number/sum';
+import { sum } from '@apestaartje/array/number/sum';
 
 describe('sum', (): void => {
     it('Returns the sum of a list', (): void => {

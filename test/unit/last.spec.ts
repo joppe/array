@@ -1,4 +1,4 @@
-import { last } from '../../src/last';
+import { last } from '@apestaartje/array/last';
 
 describe('last', (): void => {
     it('Return the last element of an array', (): void => {

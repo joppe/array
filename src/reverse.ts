@@ -2,15 +2,15 @@
  * Reverse an array without modifying the original
  */
 
-export function reverse<T>(arr: Array<T>): T[] {
+export function reverse<T>(arr: T[]): T[] {
     if (arr.length === 0) {
-        throw new Error('Empty array can not get head');
+        return arr;
     }
 
     return arr.reduce(
-        (acc: Array<T>, el: T): Array<T> => {
+        (acc: T[], el: T): T[] => {
             return [el].concat(acc);
         },
-        []
+        [],
     );
 }

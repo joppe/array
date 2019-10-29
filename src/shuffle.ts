@@ -4,9 +4,9 @@ import { rand } from '@apestaartje/number';
  * Shuffle the elements of an array
  */
 
-export function shuffle<T>(arr: Array<T>): Array<T> {
+export function shuffle<T>(arr: T[]): T[] {
     let currentIndex: number = arr.length;
-    const copy: Array<T> = [...arr];
+    const copy: T[] = [...arr];
 
     while (currentIndex !== 0) {
         const randomIndex: number = Math.floor(rand() * currentIndex);

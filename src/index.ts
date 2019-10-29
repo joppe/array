@@ -16,5 +16,5 @@ export * from './take';
 
 export {
     iterator,
-    number
+    number,
 };

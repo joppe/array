@@ -2,7 +2,7 @@
  * Removes the last element of an array
  */
 
-export function init<T>(arr: Array<T>): Array<T> {
+export function init<T>(arr: T[]): T[] {
     if (arr.length === 0) {
         throw new Error('Empty array can not get init');
     }

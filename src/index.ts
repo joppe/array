@@ -9,6 +9,7 @@ export * from './drop';
 export * from './head';
 export * from './init';
 export * from './last';
+export * from './random';
 export * from './reverse';
 export * from './shuffle';
 export * from './tail';
